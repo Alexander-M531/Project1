@@ -1,0 +1,735 @@
+@font-face {
+    font-family: Playfair Display;
+    src: url(../fonts/PlayfairDisplay-Bold.ttf);
+}
+@font-face {
+    font-family: Playfair Display R;
+    src: url(../fonts/PlayfairDisplay-Regular.ttf);
+}
+@font-face {
+    font-family: Post No Bills Jaffna;
+    src: url(../fonts/PostNoBillsJaffna-Bold.ttf);
+}
+@font-face {
+    font-family: PT Sans;
+    src: url(../fonts/PTS55F.ttf);
+}
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.container_contacts {
+    width: 1920px;
+    height: 44px;
+    background-color: #000000;
+}
+.contacts_inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 405px;
+    font-size: 12px;
+    font-family: PT Sans;
+    color: #969696;
+}
+.contact_one {
+    display: flex;
+    width: 355px;
+    margin: 0;
+}
+.login {
+    display: flex;
+    width: 130px;
+    margin: 0;
+}
+.info_one a {
+    text-decoration: none;
+    color: #969696;
+}
+a.slash::after {
+    content: " / ";
+    color: #969696;
+}
+.info_one a:hover {
+    color: rgb(201, 201, 201);
+}
+/* -------------------------------------------- */
+.container_menu {
+    width: 1920px;
+    height: 80px;
+    background-color: #0F0F0F;
+}
+.menu_inner {
+    display: flex;
+    padding: 0px;
+    color: #FFFFFF;
+}
+.porten {
+    width: 104px;
+    height: 49px;
+    font-size: 36px;
+    margin: 15px 469px 15px 405px;
+    font-family: Post No Bills Jaffna;
+    text-transform: uppercase;
+}
+.menu_items {
+    height: 80px;
+    display: flex;
+    text-align: center;
+    list-style: none;
+    font-family: PT Sans;
+    text-transform: uppercase;
+    color: #969696;
+    padding: 0px;
+    font-size: 14px;
+}
+.menu_items li a {
+    text-decoration: none;
+    color:#969696;
+}
+.menu_item {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+.corzina {
+    width: 22px;
+    height: 22px;
+    color: #FFFFFF;
+    margin-top: 32px;
+    margin-right: 44px;
+}
+.search {
+    width: 22px;
+    height: 22px;
+    color: #FFFFFF;
+    margin-right: 408px;
+    margin-left: 0;
+    margin-top: 32px;
+}
+.menu_item_one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0;
+    width: 135px;
+    transition: 0.3s;
+}
+.menu_item_one a {
+    transition: 0.3s;
+}
+.menu_item_two {
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0;
+    width: 159px;
+    transition: 0.3s;
+}
+.menu_item_two a {
+    transition: 0.3s;
+}
+.menu_item_three {
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0;
+    width: 117px;
+    transition: 0.3s;
+}
+.menu_item_three a {
+    transition: 0.3s;
+}
+.menu_inner p a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.menu_item_one:hover {
+    background-color: #1F1F1F;
+    color: #ffffff;
+    cursor: pointer;
+}
+.menu_item_one a:hover {
+    color: white;
+    transition: 0.3s;
+}
+.menu_item_two:hover {
+    background-color: #1F1F1F;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.menu_item_two a:hover {
+    color: white;
+    transition: 0.3s;
+}
+.menu_item_three:hover {
+    background-color: #1F1F1F;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.menu_item_three a:hover {
+    color: white;
+    transition: 0.3s;
+}
+.corzina:hover {
+    cursor: pointer;
+}
+.search:hover {
+    cursor: pointer;
+}
+/* не смог разобраться как внедрить это в предыдущих ховерах, по этому сумел так вот */
+.menu_item_one a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 135px;
+    height: 80px;
+}
+.menu_item_two a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 159px;
+    height: 80px;
+}
+.menu_item_three a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 117px;
+    height: 80px;
+}
+/* ------------------------------------------------------ */
+.container_box {
+    width: 1920px;
+    height: 810px;
+    background-image: url(../img/Rectangle\ 3.png);
+}
+.box_inner {
+    padding-top: 160px;
+}
+.item_box {
+    width: 320px;
+    height: 320px;
+    border: 4px solid #FFFFFF;;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.block_box {
+    padding-top: 93px;
+    color:#FFFFFF;
+    cursor: default;
+
+}
+.box_porten {
+    width: 185px;
+    height: 75px;
+    font-size: 64px;
+    font-family: Post No Bills Jaffna;
+    text-transform: uppercase;
+}
+.line_box {
+    width: 179px;
+    height:2px;
+    background-color: #FFFFFF;
+}
+.box_Запорожье {
+    font-size: 22px;
+    font-family: PT Sans;
+    padding-top: 3px;
+    text-transform: uppercase;
+}
+.box_text {
+    color: #FFFFFF;
+    width: 730px;
+    height: 96px;
+    text-align: center;
+    font-family: PT Sans;
+    text-transform: uppercase;
+    cursor: default;
+}
+/* ----------------------------------------------------------- */
+.container_two_box {
+    width: 1920px;
+    height: 730px;
+}
+.two_box_inner {
+display: flex;
+}
+.boxone {
+    width: 1040px;
+    height: 730px;
+    color: white;
+    background-color: #000000;
+}
+.boxtwo {
+    width: 880px;
+    height: 730px;
+    color: white;
+    background-image: url(../img/Rectangle\ 8.png);
+}
+.p_boxone {
+    text-align: center;
+    font-size: 36px;
+    font-family: Playfair Display;
+    margin-top: 93px;
+    text-transform: uppercase;
+    cursor: default;
+}
+.boxone_line {
+    width: 120px;
+    height: 1px;
+    background-color: #ffffff;
+    margin-top: 50px;
+}
+.boxone_cards ul {
+    display:flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0 63.3px;
+}
+.boxone_card {
+    width: 260px;
+    height: 325px;
+    background-color: #191B1C;
+    margin-top: 49px;
+    text-align: center;
+}
+.two_box_img {
+    margin-top: 55px;
+}
+.boxone_text {
+    display: flex;
+    margin: 0 63.3px;
+}
+.boxone_text_name {
+    font-family: Playfair Display;
+    width: 260px;
+    margin-top: 25px;
+}
+.p_name {
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.p_price {
+    color: #D0D0D0;
+    font-size: 16px
+}
+.p_name a {
+    color:#FFFFFF;
+    text-decoration: none;
+}
+.p_name a:hover {
+    text-decoration: underline;
+}
+.boxtwo {
+    text-align: center;
+    text-transform: uppercase;
+}
+.p_two {
+    width: 376px;
+    height: 39px;
+    font-size: 36px;
+    font-family: Playfair Display;
+    margin-top: 484px;
+    margin-bottom: 30px;
+    cursor: default;
+}
+.boxtwo_line {
+    width: 120px;
+    height: 1px;
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+.boxtwo_catalog {
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    width: 138px;
+    height: 47px;
+    transition: 0.2s;
+}
+._catalog {
+    font-size: 18px;
+    font-family: PT Sans;
+}
+.p_catalog a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.boxtwo_catalog:hover {
+    font-size: 18px;
+    background-color:  #191B1C;
+}
+/* --------------------------------------------------------------------------------- */
+.container_three_box {
+    width: 1920px;
+    height: 600px;
+}
+.three-box_inner {
+    display: flex;
+
+}
+.inner_box_one {
+    width: 880px;
+    height: 600px;
+    background-image: url(../img/Rectangle\ 9.png);
+}
+.inner_box_two {
+    width: 1040px;
+    height: 600px;
+    color: white;
+    background-color: #000000;
+    text-align: center;
+}
+.p_three_box {
+    width: 376px;
+    height: 39px;
+    margin-top: 100px;
+    font-size: 36px;
+    font-family: Playfair Display;
+    text-transform: uppercase;
+    cursor: default;
+}
+.boxеthree_line {
+    width: 120px;
+    height: 1px;
+    background-color: #fff;
+    margin: 40px 460px;
+}
+.box_three_text {
+    width: 471px;
+    height: 173px;
+    font-size: 14px;
+    font-family: PT Sans;
+    line-height: 21px;
+    cursor: default;
+}
+.boxthree_catalog {
+    display: flex;
+    align-items: center;
+    width: 311px;
+    height: 47px;
+    border: 1px solid white;
+    margin-top: 61px;
+    transition: 0.3s;
+}
+.p_catalog_boxthree a {
+    font-size: 18px;
+    color: white;
+    font-family: PT Sans;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.p_catalog_boxthree a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 311px;
+    height: 47px;
+    transition: 0.1s;
+}
+.boxthree_catalog:hover {
+    background-color: #1F1F1F;
+}
+.boxthree_catalog a:hover {
+    font-size: 19px;
+}
+/* --------------------------------------------------------------------------------- */
+.container_cards {
+    width: 1920px;
+    height: 1289px;
+    background-color: #000000;
+}
+.cards_inner {
+    color: white;
+}
+.p_cards {
+    width: 440px;
+    height: 48px;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-family: Playfair Display;
+    padding-top: 120px;
+    cursor: default;
+}
+.cards_line {
+    width: 120px;
+    height: 1px;
+    background-color: #fff;
+}
+.card_one ul {
+    display: flex;
+    list-style: none;
+    margin: 0 405px;
+    padding: 0;
+    justify-content: space-between;
+}
+.card_one ul li {
+    margin: 0;
+}
+.card_two ul {
+    display: flex;
+    list-style: none;
+    margin: 0 405px;
+    padding: 0;
+    justify-content: space-between;
+}
+.card_two ul li {
+    margin: 0;
+}
+.cards_line {
+    margin-top: 88px;
+    margin-bottom: 32px;
+}
+.text_cards {
+    display: flex;
+    margin: 0 405px;
+}
+.text_cards_one {
+    margin: 25px 0 0 0px;
+}
+.text_card_one {
+    font-size: 18px;
+    font-family: Playfair Display R;
+    width: 140px;
+    height: 24px;
+    margin-right: 143px;
+}
+.text_card_two {
+    font-size: 16px;
+    font-family: Playfair Display R;
+    width: 140px;
+    height: 24px;
+    margin-right: 143px;
+    margin-top: 10px;
+}
+.text_card_one a {
+    color: white;
+    text-decoration: none;
+}
+.text_card_one a:hover {
+    text-decoration: underline;
+}
+/* -------------------------------------------------------------- */
+.container_brands {
+    width: 1920px;
+    height: 362px;
+    background-color:#0F0F0F;
+    padding-top: 60px;
+}
+.p_brands {
+    color:white;
+    font-size: 36px;
+    font-family: Playfair Display;
+    text-transform: uppercase;
+    width: 289px;
+    height: 48px;
+    cursor: default;
+}
+.line_brands {
+    width: 120px;
+    height: 1px;
+    background-color: #fff;
+    margin: 40px auto;
+}
+.image_brands {
+    margin-left: 405px;
+}
+.img_brands {
+    width: 255px;
+    height: 94px;
+    margin-right: 30px;
+}
+/* --------------------------------------------- */
+.container_magazin {
+    width: 1920px;
+    height: 400px;
+    padding-top: 80px;
+    background-image: url(../img/Rectangle\ 15.png);
+}
+.magazin_inner {
+    display: flex;
+    color: white;
+    cursor: default;
+}
+.shop {
+    width: 350px;
+    height: 219px;
+    margin-left: 405px;
+    margin-right: 26px;
+
+}
+.p_shop {
+    font-size: 24px;
+    font-family: Playfair Display R;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.p_shop_two {
+    font-size: 14px;
+    font-family: PT Sans;
+    line-height: 21px;
+}
+.categories {
+    width: 287px;
+    height: 174px;
+    margin:0;
+}
+.p_categories {
+    width: 275px;
+    font-size: 24px;
+    font-family: Playfair Display R;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.one_line {
+    display: flex;
+    font-size: 14px;
+    font-family: PT Sans;
+    margin-bottom: 20px;
+}
+.item_line_one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 41px;
+    background-color: #0F0F0F;
+    transition: 0.2s;
+}
+.item_line_one:hover {
+    background-color: #3f3f3f;
+}
+.item_line_two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98px;
+    height: 41px;
+    background-color: #0F0F0F;
+    transition: 0.2s;
+}
+.item_line_two:hover {
+    background-color: #3f3f3f;
+}
+.item_line_three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 79px;
+    height: 41px;
+    background-color: #0F0F0F;
+    transition: 0.2s;
+}
+.item_line_three:hover {
+    background-color: #3f3f3f;
+}
+.two_line {
+    display: flex;
+    font-size: 14px;
+    font-family: PT Sans;
+}
+.item_line_four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 164px;
+    height: 41px;
+    background-color: #0F0F0F;
+    transition: 0.2s;
+}
+.item_line_four:hover {
+    background-color: #3f3f3f;
+}
+.item_line_five {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 91px;
+    height: 41px;
+    background-color: #0F0F0F;
+    transition: 0.2s;
+}
+.item_line_five:hover {
+    background-color: #3f3f3f;
+}
+.two_line {
+    display: flex;
+}
+.mail {
+    width: 350px;
+    height: 193px;
+    margin-left: 92px;
+}
+.p_mail {
+    font-size: 24px;
+    font-family: Playfair Display R;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.p_mail_text {
+    font-size: 14px;
+    font-family: PT Sans;
+    line-height: 21px;
+    margin-bottom: 38px;
+}
+.subscribe {
+    display: flex;
+}
+.your_mail {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-family: PT Sans;
+    padding-left: 20px;
+    color: rgb(218, 218, 218);
+    width: 210px;
+    height: 42px;
+    background-color: rgba(250, 250, 250, 0.4);
+}
+.sub {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-family: PT Sans;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 140px;
+    height: 42px;
+    background-color: #0F0F0F;
+    transition: 0.2s;
+}
+.sub:hover {
+    background-color: rgb(143, 2, 2);
+}
+.sub a {
+    color: white;
+    text-decoration: none;
+}
+.categories div a {
+    color: #D0D0D0;
+    text-decoration: none;
+}
+/* ------------------------------------------------------------ */
+.container-footer {
+    width: 1920px;
+    height: 50px;
+    background-color: #0F0F0F;
+    color: #D0D0D0;
+    padding-top: 17px;
+}
+.footer_inner {
+    display: flex;
+    font-size: 12px;
+    font-family: PT Sans;
+}
+.p_footer_one {
+    margin-left: 405px;
+}
+.p_footer_two {
+    margin-right: 405px;
+}
